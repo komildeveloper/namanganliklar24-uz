@@ -12,8 +12,7 @@ body {
   background: #f6f6f9;
 }
 
-.container,
-.main {
+.container {
   width: 85%;
   margin: 0 auto;
   padding: 40px 0;
@@ -106,41 +105,144 @@ body {
 
 /* MAIN */
 .main {
-  background-color: #f6f6f9;
+  width: 55%;
+  margin: 0 auto;
   margin-top: 22px;
 }
 
-.main-coronavirus {
+.main-top {
   display: flex;
-}
-
-.main-virus {
-  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 0 auto;
 }
 
-.main-virus-text {
+.main .main-top-left-side {
+  width: 794px;
+}
+
+.main-top-left-side-text {
+  width: 794px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.main-top-left-side-strong-text {
+  font-weight: 800;
+}
+
+.main-top-left-side-links {
+  display: inline-block;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #28508e;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.main-top-left-side-line {
+  width: 794px;
+  height: 2px;
+  background-color: #ebebeb;
+}
+
+.main-top-right-side {
+  width: 386px;
+  margin-top: 0;
+}
+
+.main-top-right-side-text {
+  background-color: #f6f6f9;
+  border-radius: 5px;
+  padding: 20px 16px;
+}
+
+.main-top-right-side-h {
+  font-family: Rubik;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  color: #202020;
+}
+
+.main-top-right-side-title {
+  text-decoration: none;
+  display: inline-block;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #202020;
+}
+
+.main-top-right-side-time {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688a4;
+}
+
+.main-top-right-side-line {
+  width: 346px;
+  height: 4px;
+  background-color: #ebebeb;
+  margin-top: 17px;
+}
+
+.main-top-right-side-ucell {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.main-top-news {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-top-left-side-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-top-left-side-news {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 24px;
   color: #000000;
-  width: 232px;
-  height: 50px;
 }
 
-.main-line {
-  width: 2px;
-  height: 49px;
-  background-color: #f4ccd1;
-  margin: auto;
+.main-top-left-side-bottom-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  margin: 20px 0;
+  color: #202020;
 }
 
-.active {
-  height: 74px;
-  background-color: #eb5569;
-}
-
-.main-virus-block {
-  display: block;
+.main-top-left-side-bottom-time {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6d97;
 }
