@@ -12,7 +12,8 @@ body {
   background: #f6f6f9;
 }
 
-.container {
+.container,
+.main {
   width: 85%;
   margin: 0 auto;
   padding: 40px 0;
@@ -101,4 +102,45 @@ body {
   background: url('../img/nrg-banner.jpg');
   width: 100%;
   height: 99px;
+}
+
+/* MAIN */
+.main {
+  background-color: #f6f6f9;
+  margin-top: 22px;
+}
+
+.main-coronavirus {
+  display: flex;
+}
+
+.main-virus {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-virus-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  width: 232px;
+  height: 50px;
+}
+
+.main-line {
+  width: 2px;
+  height: 49px;
+  background-color: #f4ccd1;
+  margin: auto;
+}
+
+.active {
+  height: 74px;
+  background-color: #eb5569;
+}
+
+.main-virus-block {
+  display: block;
 }
