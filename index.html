@@ -89,195 +89,134 @@
 
     <!-- MAIN-->
     <main class="main">
-      <section class="main-top-prezident">
-        <div class="main-top">
-          <div class="main-top-left-side">
-            <img
-              class="main-top-right-side-img"
-              src="./img/prezident.png"
-              alt="Prezident"
-              width="794"
-              height="379"
-            />
-            <div class="main-top-left-side-top">
-              <p class="main-top-left-side-text">
-                <strong class="main-top-left-side-strong-text"
-                  >19 мая состоялось видеоселекторное совещание, посвященное
-                  дополнительным мерам поддержки предпринимательства.</strong
-                >
-                <br />
-                <br />
-
-                По данным пресс-службы главы государства, из-за пандемии в
-                Узбекистане число бедных и безработных увеличится, а доходы
-                семей уменьшатся. На совещании обсуждены дополнительные меры и
-                приоритетные задачи в этом направлении.
-                <br />
-                <br />
-
-                Прежде всего, серьезное внимание уделено обеспечению гарантий
-                прав предпринимателей и неприкосновенности их имущества.
-                <br />
-                <br />
-
-                <strong
-                  >«Предупреждаю всех хокимов. Если имущество хоть одного
-                  предпринимателя будет изъято незаконно, хоким одной лишь
-                  отставкой не отделается, но и ответит перед законом», -
-                  подчеркнул Шавкат Мирзиёев.</strong
-                >
-                <br />
-                <br />
-
-                Компетентным ведомствам даны указания усилить ответственность за
-                нарушение неприкосновенности собственности, обеспечить
-                полноценное исполнение решений суда о компенсации имущества
-                предпринимателей.
-                <br />
-                <br />
-
-                Согласно поручению президента деловая активность в каждом районе
-                и городе будет анализироваться на ежемесячной основе.
-                <br />
-                <br />
-
-                Бизнес-омбудсман будет вносить правительству информацию о
-                хокимах районов и городов, которые допускают нарушения прав и
-                неприкосновенности собственности предпринимателей.
-                <br />
-                <br />
-
-                Кабинетом Министров будет рассматриваться вопрос о соответствии
-                должности хокимов городов и районов, которые не решают проблемы
-                предпринимателей и не работают с ними в достаточной мере.
-              </p>
-
-              <br />
-              <br />
-
-              <a href="#" class="main-top-left-side-links">#хоким</a>
-              <a href="#" class="main-top-left-side-links"> #Шавкат Мирзиёев</a>
-              <a href="#" class="main-top-left-side-links"> #пандемия</a>
-
-              <div class="main-top-left-side-line"></div>
-            </div>
-          </div>
-          <div class="main-top-right-side">
-            <div class="main-top-right-side-text">
-              <h3 class="main-top-right-side-h">Cамые популярные новости</h3>
-              <div class="main-top-right-side-subtitle">
-                <a href="#" class="main-top-right-side-title">
-                  По факту прорыва Сардобинского водохранилища возбуждено
-                  уголовное дело
-                </a>
-                <time
-                  class="main-top-right-side-time"
-                  datetime="2020-05-15T11:31:00"
-                  >11:31 / 15.05.2020</time
-                >
-                <div class="main-top-right-side-line"></div>
-              </div>
-              <div class="main-top-right-side-subtitle">
-                <a href="#" class="main-top-right-side-title">
-                  По факту прорыва Сардобинского водохранилища возбуждено
-                  уголовное дело
-                </a>
-                <time
-                  class="main-top-right-side-time"
-                  datetime="2020-05-15T11:31:00"
-                  >11:31 / 15.05.2020</time
-                >
-                <div class="main-top-right-side-line"></div>
-              </div>
-              <div class="main-top-right-side-subtitle">
-                <a href="#" class="main-top-right-side-title">
-                  По факту прорыва Сардобинского водохранилища возбуждено
-                  уголовное дело
-                </a>
-                <time
-                  class="main-top-right-side-time"
-                  datetime="2020-05-15T11:31:00"
-                  >11:31 / 15.05.2020</time
-                >
-                <div class="main-top-right-side-line"></div>
-              </div>
-              <div class="main-top-right-side-subtitle">
-                <a href="#" class="main-top-right-side-title">
-                  По факту прорыва Сардобинского водохранилища возбуждено
-                  уголовное дело
-                </a>
-                <time
-                  class="main-top-right-side-time"
-                  datetime="2020-05-15T11:31:00"
-                  >11:31 / 15.05.2020</time
-                >
-              </div>
-            </div>
-
-            <div class="main-top-right-side-ucell">
-              <img
-                class="main-top-right-side-ucell-img"
-                src="./img/ucell.jpg"
-                width="386"
-                height="477"
+      <section class="form-section">
+        <div class="container">
+          <div class="form-left">
+            <h2 class="form-heading">Напишите нам</h2>
+            <form
+              action="https://echo.htmlacademy.ru/"
+              method="POST"
+              class="form"
+            >
+              <input
+                type="text"
+                placeholder="Имя"
+                class="form-input"
+                name="user_name"
+                id="user_name"
+                required
               />
+              <input
+                type="email"
+                placeholder="Электронная почта"
+                class="form-input"
+                name="user_email"
+                id="user_email"
+                required
+              /><input
+                type="tel"
+                placeholder="Номер телефона"
+                class="form-input"
+                name="user_phone"
+                id="user_phone"
+                required
+              /><input
+                type="text"
+                placeholder="Тема"
+                class="form-input"
+                name="user_theme"
+                id="user_theme"
+                required
+              />
+
+              <textarea
+                name="user_msg"
+                id="user_msg"
+                class="form-msg"
+                placeholder="Текст"
+                required
+              ></textarea>
+              <input
+                type="file"
+                placeholder="Прикрепить файл"
+                class="form-file"
+                required
+              />
+              <div class="form-flex">
+                <input
+                  type="password"
+                  placeholder="Код"
+                  class="form-password"
+                  required
+                />
+                <img src="./img/img.png" alt="Code" class="form-img" />
+              </div>
+              <button type="submit" class="form-btn">Отправить</button>
+            </form>
+          </div>
+          <div class="form-right">
+            <div class="form-shadow">
+              <img
+                src="./img/NAMANGANLIKLAR24.png"
+                alt="NM24"
+                width="329"
+                height="33"
+                class="form-right-img"
+              />
+
+              <ul class="form-list">
+                <ul class="form-list">
+                  <li class="form-list-items">
+                    <p class="form-list-text">Электронная почта</p>
+                    <p class="form-list-text">info@namanganliklar24.uz</p>
+                  </li>
+                  <li class="form-list-items">
+                    <p class="form-list-text">Социальные сети</p>
+                    <div class="form-list-icons">
+                      <a href="#" class="form-list-img">
+                        <img src="./img/fb.png" alt="Facebook" />
+                      </a>
+                      <a href="#" class="form-list-img">
+                        <img src="./img/tw.png" alt="Twitter" />
+                      </a>
+                      <a href="#" class="form-list-img">
+                        <img src="./img/ok.png" alt="OK" />
+                      </a>
+                    </div>
+                  </li>
+                  <li class="form-list-items">
+                    <p class="form-list-text">Телеграм канал</p>
+                    <a href="#" class="form-right-btn">
+                      <img
+                        src="./img/tg.png"
+                        alt="Telegram"
+                        class="form-right-btn-img"
+                      />
+                      <span class="form-right-span">Подписатся</span>
+                    </a>
+                  </li>
+                  <li class="form-list-items">
+                    <p class="form-list-text">Мобильная приложение</p>
+                    <div class="form-list-icons">
+                      <a href="#" class="form-list-img">
+                        <img
+                          src="./img/gp.png"
+                          alt="Google Play"
+                          class="form-right-app"
+                        />
+                      </a>
+                      <a href="#" class="form-list-img">
+                        <img
+                          src="./img/apple.png"
+                          alt="App Store"
+                          class="form-right-app"
+                        />
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </ul>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="main-top-news">
-        <h3 class="main-top-left-side-news">Новости по теме</h3>
-        <div class="main-top-left-side-bottom">
-          <div class="main-top-left-side-items">
-            <img
-              class="main-top-left-side-img"
-              src="./img/prezident-2.png"
-              width="386"
-              height="190"
-            />
-            <p class="main-top-left-side-bottom-text">
-              Мирзиёев рассказал, зачем было построено Сардобинское
-              водохранилище
-            </p>
-            <time
-              datetime="2020-05-07T05:28:00"
-              class="main-top-left-side-bottom-time"
-              >05:28 / 16.05.2020</time
-            >
-          </div>
-          <div class="main-top-left-side-items">
-            <img
-              class="main-top-left-side-img"
-              src="./img/prezident-2.png"
-              width="386"
-              height="190"
-            />
-            <p class="main-top-left-side-bottom-text">
-              Мирзиёев рассказал, зачем было построено Сардобинское
-              водохранилище
-            </p>
-            <time
-              datetime="2020-05-07T05:28:00"
-              class="main-top-left-side-bottom-time"
-              >05:28 / 16.05.2020</time
-            >
-          </div>
-          <div class="main-top-left-side-items">
-            <img
-              class="main-top-left-side-img"
-              src="./img/prezident-2.png"
-              width="386"
-              height="190"
-            />
-            <p class="main-top-left-side-bottom-text">
-              Мирзиёев рассказал, зачем было построено Сардобинское
-              водохранилище
-            </p>
-            <time
-              datetime="2020-05-07T05:28:00"
-              class="main-top-left-side-bottom-time"
-              >05:28 / 16.05.2020</time
-            >
           </div>
         </div>
       </section>
